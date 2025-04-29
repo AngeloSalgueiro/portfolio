@@ -1,0 +1,23 @@
+:root {
+    /*--maincolor: #cffaec;*/
+    --maincolor : #f5eedf;
+    --secondcolor: #A8D8F0;
+    --thirdcolor: #d86e5e;
+    
+    --textcolor: red;
+}
+
+*{
+    margin :0;
+    padding: 0;
+}
+
+body{
+    background-color:#ffff /* Blanc*/;
+    font-family: sans-serif;
+    
+}
+
+html{
+    scroll-padding-top: 150px;
+}

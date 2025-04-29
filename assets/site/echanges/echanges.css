@@ -1,0 +1,231 @@
+@import url(../index/style.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.echanges {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-inline: auto;
+
+    
+    background-color: var(--maincolor);
+}
+
+
+:root{
+    --e_couleur1: #F0F4FF;
+    --e_couleur2: var(--thirdcolor);
+    --color_text: #FAF3E0;
+}
+
+
+
+.case_echange {
+
+    width: 95%;
+    margin-inline: auto;
+
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    border: solid 2px;
+    border-radius: 8px;
+    border-color: gray;
+    background-color: var(--e_couleur1);
+}
+
+.cartes {
+    width: 160px;
+    
+    
+}
+
+.cartes:hover{
+    cursor: pointer;
+    opacity: 75%;
+}
+
+.left_part{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 1%;
+    
+}
+
+.right_part{
+    display: flex;
+    width: 49%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+   
+    
+    
+}
+
+.cartes_recherches{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+}
+
+.carte_proposee{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.discussion {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.button_discussion{
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 1%;
+    width: 200px;
+    max-width: 200px;
+    background-color: var(--e_couleur2);
+    border-radius: 10px;
+    color: var(--color_text);
+    font-weight: bold;
+    cursor: pointer;
+    /*border: solid;*/
+    /*border-color: #0291f7;*/
+    /*background-color: var(--secondcolor);*/
+    
+
+}
+
+.button_discussion a {
+    text-decoration: none;
+    color: inherit;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.propose_echange{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    margin-left: 2.5%;
+    
+    
+}
+
+
+.button_propose_echange{
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+    width: 200px;
+    max-width: 200px;
+    background-color: var(--e_couleur1);
+    border-radius: 10px;
+    border: solid;
+    border-color: var(--e_couleur2);
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button_discussion:hover{
+    cursor: pointer;
+    
+    opacity: 80%;
+}
+
+.button_propose_echange:hover{
+    cursor: pointer;
+    background-color: var(--secondcolor);
+    
+}
+
+.icon {
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 60px;
+    height: 60px;
+    
+   
+    
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: transparent;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    max-height: 80%;
+    position: relative;
+    
+
+}
+
+.modal-content img {
+    width: auto;
+    max-width: 70%;
+    max-height: 80vh;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+}
+
+/*#eeecec*/
