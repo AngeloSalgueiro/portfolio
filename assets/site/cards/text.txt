@@ -1,0 +1,859 @@
+<div class="card">
+    <img src="assets_cards/A1_01.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_02.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_03.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_04.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_05.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_06.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_07.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_08.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_09.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_010.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_011.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_012.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_013.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_014.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_015.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_016.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_017.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_018.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_019.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_020.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_021.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_022.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_023.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_024.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_025.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_026.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_027.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_028.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_029.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_030.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_031.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_032.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_033.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_034.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_035.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_036.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_037.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_038.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_039.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_040.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_041.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_042.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_043.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_044.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_045.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_046.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_047.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_048.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_049.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_050.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_051.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_052.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_053.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_054.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_055.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_056.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_057.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_058.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_059.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_060.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_061.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_062.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_063.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_064.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_065.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_066.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_067.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_068.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_069.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_070.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_071.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_072.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_073.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_074.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_075.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_076.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_077.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_078.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_079.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_080.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_081.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_082.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_083.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_084.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_085.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_086.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_087.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_088.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_089.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_090.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_091.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_092.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_093.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_094.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_095.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_096.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_097.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_098.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_099.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_100.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_101.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_102.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_103.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_104.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_105.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_106.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_107.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_108.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_109.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_110.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_111.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_112.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_113.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_114.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_115.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_116.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_117.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_118.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_119.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_120.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_121.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_122.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_123.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_124.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_125.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_126.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_127.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_128.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_129.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_130.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_131.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_132.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_133.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_134.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_135.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_136.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_137.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_138.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_139.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_140.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_141.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_142.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_143.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_144.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_145.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_146.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_147.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_148.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_149.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_150.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_151.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_152.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_153.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_154.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_155.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_156.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_157.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_158.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_159.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_160.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_161.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_162.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_163.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_164.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_165.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_166.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_167.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_168.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_169.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_170.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_171.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_172.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_173.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_174.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_175.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_176.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_177.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_178.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_179.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_180.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_181.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_182.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_183.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_184.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_185.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_186.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_187.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_188.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_189.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_190.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_191.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_192.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_193.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_194.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_195.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_196.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_197.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_198.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_199.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_200.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_201.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_202.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_203.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_204.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_205.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_206.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_207.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_208.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_209.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_210.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_211.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_212.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_213.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_214.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_215.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_216.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_217.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_218.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_219.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_220.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_221.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_222.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_223.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_224.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_225.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_226.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_227.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_228.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_229.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_230.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_231.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_232.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_233.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_234.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_235.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_236.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_237.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_238.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_239.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_240.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_241.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_242.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_243.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_244.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_245.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_246.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_247.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_248.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_249.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_250.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_251.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_252.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_253.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_254.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_255.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_256.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_257.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_258.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_259.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_260.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_261.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_262.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_263.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_264.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_265.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_266.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_267.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_268.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_269.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_270.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_271.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_272.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_273.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_274.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_275.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_276.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_277.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_278.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_279.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_280.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_281.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_282.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_283.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_284.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_285.png" alt="" title="">
+</div>
+<div class="card">
+    <img src="assets_cards/A1_286.png" alt="" title="">
+</div>
+
