@@ -1,247 +1,237 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="style/style.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#pres">
-                            <p>
-                                Présentation
-                            </p>
-                        </a>
-                    </li>
-                    <div class="sidebar"></div>
-                    <li>
-                        <a href="#cv">
-                            <p>
-                                Curriculum vitae
-                            </p>
-                        </a>
-                    </li>
-                    <div class="sidebar"></div>
-                    <li>
-                        <a href="#motiv">
-                            <p>
-                                Lettre de motivation
-                            </p>
-                        </a>
-                    </li>
-                    <div class="sidebar"></div>
-                    <li>
-                        <a href="#schol">
-                            <p>
-                                Mes projets scolaires
-                            </p>
-                        </a>
-                    </li>
-                    <div class="sidebar"></div>
-                    <li>
-                        <a href="#pro">
-                            <p>
-                                Mes expériences professionnelles
-                            </p>
-                        </a>
-                    </li>
-                    <div class="sidebar"></div>
-                    <li>
-                        <a href="#perso">
-                            <p>
-                                Mes projets personnels
-                            </p>
-                        </a>
-                    </li>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-                </ul>
-            </nav>
-        </header>
-        <div class="main">
-            <div class="intro">
-                <h1>Bienvenue sur le portfolio de Angelo Salgueiro--Frémont</h1>
-            </div>
-            <div class="bar"></div>
-            <div class="title" id="pres">
-                <h1>
-                    Courte présentation
-                </h1>
-            </div>
-            <div class="pres">
-                Étudiant en informatique à Nantes, je suis particulièrement intéressé par les domaines mathématiques et logiques. 
-                Actuellement, je cherche à finir ma formation en BUT informatique pour ensuite peut être rentrer dans le monde du travail 
-                ou continuer jusqu'au BAC+5. Je n'ai pas vraiment de domaine préféré dans l'informatique, 
-                ce qui me plaît dedans est de résoudre des problèmes, créer des algorithme et pouvoir toujours réfléchir à de nouvelles solutions. 
-                Outre l'informatique, je suis plutôt adepte de l'éclectisme, j'adore les autres sciences comme la physique, la chimie, la biologie 
-                et même les sciences sociales comme l'histoire ou l’anthropologie. Mes qualités sont mon calme, 
-                mon attention portée au travail que je produis et ma ponctualité. Et mon seul défaut est mon perfectionnisme.
-            </div>
-            <div class="bar"></div>
-            <div class="title" id="cv">
-                <h1>
-                    Mon curriculum vitae
-                </h1>
-            </div>
-            <div class="cv">
-                <img src="assets/cv.jpg" alt="">
-                <div>
-                    <p>
-                        Si vous voulez le télécharger au format pdf : 
-                    </p>
-                    <a href="assets/cv_angelo-salgueiro.pdf" target="_blank" download>Mon CV</a>
-                </div>
-                
-            </div>
-            <div class="bar"></div>
-            <div class="title" id="motiv">
-                <h1>
-                    Ma lettre de motivation
-                </h1>
-            </div>
-            <div class="pres">
-                Madame, Monsieur,
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Intro</a></li>
+                    <li><a href="#presentation">Présentation</a></li>
+					<li><a href="#work">Compétences</a></li>
+					<li><a href="#portfolio">Projets</a></li>
+					<li><a href="#contact">Me contacter</a></li>
+				</ul>
+			</nav>
 
-                Étudiant en BUT Informatique à Nantes, je suis passionné par la résolution de problèmes et la création d'algorithmes. Grâce à mes stages chez Cedreo et International Horizons, j'ai confirmé mon choix de carrière et acquis une première expérience du milieu professionnel.
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/photo.png" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Salut ! Je m'appelle <strong>Angelo</strong>.</h1>
+							</header>
+							<p>Bienvenue sur mon <strong>Portfolio !</strong></p>
+							<a href="#presentation" class="button large scrolly">En savoir plus sur moi</a>
+						</div>
+					</div>
+				</div>
+			</article>
 
-                Sérieux, curieux et perfectionniste, je maîtrise Python, Golang et HTML/CSS. Motivé pour apprendre et m'impliquer dans vos projets, je serais ravi de rejoindre votre équipe.
-
-                Je reste à votre disposition pour un entretien.
-                Veuillez agréer, Madame, Monsieur, l’expression de mes salutations distinguées.
-
-                Angelo Salgueiro–Frémont
-            </div>
-            <div class="bar"></div>
-            <div class="title" id="schol">
-                <h1>
-                    Mes projets scolaires
-                </h1>
-            </div>
-            <div class="school">
-                <div class="project">
-                    <div class="first">
-                        <h2>Projet quadtree</h2>
-                        <img src="assets/quadtree1.png" alt="quadtree">
-                    </div>
-                    <div class="content">
-                        <p>
-                            Lors de la fin de mon premier semestre j'ai eu l'occasion pour conclure la ressource sur le golang de programme en partie un jeux vidéo.
-                        </p>
-                        <a href="assets/quadtree.html">
-                            <div class ="button">
-                                <h3>En savoir plus...</h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="first">
-                        <h2>Site web communication</h2>
-                        <img src="assets/pika.png" alt="websitecomm">
-                    </div>
-                    <div class="content">
-                        <p>
-                            À l'occasion du cours de communication j'ai dû développer un site web sur le thème du jeux vidéo Pokémon TCG.
-                        </p>
-                        <a href="assets/sitecom.html">
-                            <div class ="button">
-                                <h3>En savoir plus...</h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="bar"></div>
-            <div class="title" id="pro">
-                <h1>
-                    Mes expériences professionnelles
-                </h1>
-            </div>
-            <div class="pro">
-                <div class="xp">
-                    <h2>
-                        <div>
-                            Stagiaire - Cedreo
+        <!-- Présentation -->
+            <article id="presentation" class="wrapper style2">
+                <div class="container">
+                    <header>
+                        <h2>Qui suis-je ?</h2>
+                    </header>
+                    <div class="row aln-center">
+                        <div class="col-6-medium col-12-small">
+                            <section class="box style1 pres">
+<!--                                <span class="icon featured fa-comments"></span>-->
+                                <h3>Courte présentation :</h3>
+                                <p>Étudiant en deuxième année de BUT Informatique, passionné par les nouvelles technologies, je possède de solides bases en développement, bases de données et gestion de projets. Curieux, rigoureux et motivé, je souhaite mettre mes compétences techniques et mon sens de l’analyse au service d’une équipe dynamique afin de contribuer à la réalisation de projets innovants lors d’un stage de 8 à 12 semaines à partir du 13 avril 2026.</p>
+                            </section>
                         </div>
-                        <div>
-                            Mars. 2021 - Mars. 2021
-                        </div>
-                    </h2>
-                    Au cours de cette semaine de stage d'observation pendant ma classe de troisième, j'ai eu l'occasion
-                    de me familiariser avec le milieu professionnel et d'explorer les métiers de l'informatique en côtoyant
-                    des développeurs. Ce stage a confirmé le fait que je voulais me diriger vers les métiers de
-                    l'informatique.
+                    </div>
+                    <footer>
+                        <p>En savoir plus sur mes compétences ?</p>
+                        <a href="#work" class="button large scrolly">Mes compétences</a>
+                    </footer>
+                </div>
+            </article>
 
-                </div>
-                <div class="xp">
-                    <h2>
-                        <div>
-                            Stagiaire - International Horizons
+		<!-- Work -->
+			<article id="work" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Quelles sont mes compétences ?</h2>
+						<p>Les langages que je maitrise</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small comps">
+							<section class="box style1">
+<!--								<span class="icon featured fa-python"></span>-->
+<!--								<h3>Consequat lorem</h3>-->
+<!--								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>-->
+                                <img src="images/python.svg" title="Python" alt="Python" >
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small comps">
+							<section class="box style1">
+                                <img src="images/golang.svg" title="GoLang" alt="Golang">
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small comps">
+							<section class="box style1">
+                                <img src="images/kotlin.svg" title="Kotlin" alt="Kotlin">
+							</section>
+						</div>
+                        <div class="col-4 col-6-medium col-12-small comps">
+                            <section class="box style1">
+                                <img src="images/mysql.png" title="MySQL" alt="MySQL">
+                            </section>
                         </div>
-                        <div>
-                            Juin. 2022 - Juin. 2022
+                        <div class="col-4 col-6-medium col-12-small comps">
+                            <section class="box style1">
+                                <img src="images/php.svg" title="PHP" alt="PHP">
+                            </section>
                         </div>
-                         
-                    </h2>
-                    
-                    Au cours de ce deuxième stage d'observation en classe de seconde, j'ai eu l'opportunité de découvrir
-                    un nouveau modèle d'entreprise, en particulier dans le secteur de l'informatique, celui des "start-up".
-                    Cela m'a beaucoup plus et m'a définitivement orienté vers l'informatique.
-                </div>
-            </div>
-            <div class="bar"></div>
-            <div class="title" id="perso">
-                <h1>
-                    Mes projets personnels
-                </h1>
-            </div>
-            <div class="perso">
-                <div>
-                    <div class="dot"></div>
-                    <div class="act">
-                        Je pratique la Natation depuis que je suis petit et actuellement, je le pratique avec le sport universitaire.
-                    </div>
-                </div>
-                <div>
-                    <div class="dot"></div>
-                    <div class="act">
-                        J'aime beaucoup jouer aux jeux vidéo.
-                    </div>
-                </div>
-                <div >
-                    <div class="dot"></div>
-                    <div class="act">
-                        J'apprécie beaucoup de regarder des films et aller au cinéma.
-                    </div>
-                </div>
-                <div>
-                    <div class="dot"></div>
-                    <div class="act">
-                        Je fais aussi de la programmation à un cadre plus ludique pour m'aider à résoudre des problèmes de mon quotidien.
-                    </div>
-                </div>
-                <div>
-                    <div class="dot"></div>
-                    <div class="act">
-                        Bien sûr j'adore écouter de la musique cela reste une activité qui prend une grosse part de ma journée.                        
-                    </div>
-                </div>
-            </div>            
-        </div>
-        <footer>
-            <div class="contact">
-                <h1>
-                    Me contacter :
-                </h1>
-                <div>
-                    Email : angelosalgueiro20@gmail.com
-                </div>
-                <div>
-                    Téléphone : 07 67 15 83 68
-                </div>
-            </div>
-        </footer>
-    </body>
+                        <div class="col-4 col-6-medium col-12-small comps">
+                            <section class="box style1">
+                                <img src="images/html5.svg" title="HTML" alt="HTML">
+                            </section>
+                        </div>
+                        <div class="col-4 col-6-medium col-12-small comps">
+                            <section class="box style1">
+                                <img src="images/css.svg" title="CSS" alt="CSS">
+                            </section>
+                        </div>
+					</div>
+					<footer>
+						<p>Envie d'en apprendre plus sur mes derniers projets ?</p>
+						<a href="#portfolio" class="button large scrolly">Mes derniers projets</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style5">
+				<div class="container">
+					<header>
+						<h2>Quelques mes projets récents.</h2>
+						<p>Cela regroupe des projets personnel et des projets de groupe.</p>
+					</header>
+					<div class="row">
+<!--						<div class="col-4 col-6-medium col-12-small">-->
+<!--							<article class="box style2">-->
+<!--								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>-->
+<!--								<h3><a href="#">Site web e-commerce</a></h3>-->
+<!--								<p>Un projet de groupe où l'on a dû réaliser un site e-commerce de lego.</p>-->
+<!--							</article>-->
+<!--						</div>-->
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/AngeloSalgueiro/Client-sided-whoswho.git" class="image featured"><img src="images/quiestce.png" alt="Image of the app's login screen" /></a>
+								<h3><a href="https://github.com/AngeloSalgueiro/Client-sided-whoswho.git">Application côté client.</a></h3>
+								<p>Un projet de groupe où le but était de réaliser une application côté client pour le jeu Qui est ce ?.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/AngeloSalgueiro/smallgameinGo.git" class="image featured"><img src="images/quadtree1.png" alt="Image of the game" /></a>
+								<h3><a href="https://github.com/AngeloSalgueiro/smallgameinGo.git">Projet quadtree</a></h3>
+								<p>Amélioration d'un petit jeu en Go en équipe avec l'implémentation de nouvelles fonctionnalité pour le jeu.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/AngeloSalgueiro/pokemonTCGmarketplace.git" class="image featured"><img src="images/pika.png" alt="Pikachu TCG card" /></a>
+								<h3><a href="https://github.com/AngeloSalgueiro/pokemonTCGmarketplace.git">Pokemon TCG website</a></h3>
+								<p>Small team project about a Pokemon tcg marketplace.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/AngeloSalgueiro/python_experiences.git" class="image featured"><img src="images/pong.png" alt="Game image" /></a>
+								<h3><a href="https://github.com/AngeloSalgueiro/python_experiences.git">Expériences en Python</a></h3>
+								<p>Un git avec quelques jeux/expériences que j'ai faite avec pygames.</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>En savoir plus ?</p>
+						<a href="#contact" class="button large scrolly">Me contacter</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Envie de me contactez ?</h2>
+						<p>Rien de plus simple ! Remplissez ce formulaire et je vous répondrai dans les plus brefs délais.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="https://formspree.io/f/mwpgpvao">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Nom" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Objet" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Envoyer" /></li>
+											<li><input type="reset" value="Effacer" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Mes réseaux</h3>
+							<ul class="social">
+								<li><a href="https://www.linkedin.com/in/angelo-salgueiro-fr%C3%A9mont/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/AngeloSalgueiro" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li> Portfolio. Tous droits réservées.</li><li>angelosalgueiro20@gmail.com</li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
-
