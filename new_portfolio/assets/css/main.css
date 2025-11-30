@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+html, body, div, span,.span , applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -1669,11 +1669,11 @@ input, select, textarea {
 		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));*/
-		-moz-transition: background-color .2s ease-in-out;
-		-webkit-transition: background-color .2s ease-in-out;
-		-ms-transition: background-color .2s ease-in-out;
-		transition: background-color .2s ease-in-out;
-		-webkit-appearance: none;
+		-moz-transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+		-webkit-transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+		-ms-transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+		transition: background-color,  .2s ease-in-out, border-color .2s ease-in-out;
+        -webkit-appearance: none;
 		position: relative;
 		display: inline-block;
 		/*color: #fff !important;*/
@@ -1697,8 +1697,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
-            border-color: #43bff0 !important;
+			background-color: #0d5c7a;
+            border-color: #0d5c7a !important;
 			color: #fff !important;
 		}
 
@@ -1707,8 +1707,8 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
-            border-color: #3BA8D3 !important;
+			background-color: #4dacd1;
+            border-color: #4dacd1 !important;
 			top: 1px;
 		}
 
@@ -1717,9 +1717,9 @@ input, select, textarea {
 		input[type="reset"].large,
 		button.large,
 		.button.large {
-            border-color: #6ec6e8;
+            border-color: #4d879e;
             border-width: 5px;
-		    color: #6ec6e8 !important;
+		    color: #4d879e !important;
             border-style: solid;
 			font-size: 1.5em;
 			letter-spacing: -0.025em;
@@ -1959,8 +1959,8 @@ input, select, textarea {
 	}
 
 		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
+			/*-moz-osx-font-smoothing: grayscale;*/
+			/*-webkit-font-smoothing: antialiased;*/
 			display: inline-block;
 			font-style: normal;
 			font-variant: normal;
@@ -2022,6 +2022,10 @@ input, select, textarea {
 			text-shadow: 1px 1px 0px #fff;
 		}
 
+        .wrapper.style5 {
+            background-color: #ecebeb;
+            text-shadow: 1px 1px 0px #fff;
+        }
 		.wrapper.style4 {
 			background-color: #303030;
 			color: #999;
@@ -2461,4 +2465,33 @@ input, select, textarea {
 *{
     text-decoration: none !important;
     text-shadow: none !important;
+}
+
+.pres{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+section > img{
+    width: 100px;
+}
+
+.pres > p{
+    font-size: 1.5em;
+}
+
+.comps{
+    width: 175px !important;
+    /*padding: 3em 2em 3em 2em !important;*/
+}
+
+.comps > section{
+    display: flex;
+    padding: 0 !important;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
