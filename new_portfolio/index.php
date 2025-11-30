@@ -173,7 +173,7 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="mailto:angelosalgueiro20@gmail.com">
+							<form method="post" action="email_handler.php">
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<input type="text" name="name" id="name" placeholder="Nom" />
