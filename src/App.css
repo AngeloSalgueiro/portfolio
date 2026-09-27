@@ -1,5 +1,5 @@
 :root {
-  --grey: rgba(20, 20, 25, 1);
+  --grey: rgb(6, 6, 7);
   --stars: rgba(255, 255, 255, 1);
 }
 
@@ -8,34 +8,68 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
   color: var(--white);
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 body {
   background-color: var(--grey);
   width: 100%;
   min-height: 100vh;
+  height: 200vh;
 }
 
 /* --- Star Background ------------------------------------------------ */
 
 @keyframes pulse {
+
   0%,
   100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.1;
   }
 }
 
-.star {
+.starfield {
   position: absolute;
-  width: 2px;
-  height: 2px;
-  background-color: white;
-  box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.35) !important;
-  opacity: 0;
-  transition: opacity 1s;
+  top: 0;
+  left: 0;
   z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  background: rgba(58, 58, 58, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
 }
