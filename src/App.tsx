@@ -37,7 +37,14 @@ function Starfield() {
     if (!canvas) return;
 
     canvas.width = bodyWidth;
-    canvas.height = bodyHeight * scrollRatio;
+
+    const windowHeight = Math.round(window.innerHeight);
+
+    if (bodyHeight * scrollRatio <= windowHeight){
+      canvas.height = bodyHeight;
+    } else{
+      canvas.height = bodyHeight * scrollRatio;
+    }
 
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
