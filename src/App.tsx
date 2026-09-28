@@ -1,6 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
 
+// Ratio between the background and the foreground
+const scrollRatio = 0.8;
+
 function useBodyDimension() {
   const [bodyWidth, setBodyWidth] = useState(0);
   const [bodyHeight, setBodyHeight] = useState(0);
@@ -34,7 +37,7 @@ function Starfield() {
     if (!canvas) return;
 
     canvas.width = bodyWidth;
-    canvas.height = bodyHeight;
+    canvas.height = bodyHeight * scrollRatio;
 
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
@@ -91,18 +94,43 @@ function Starfield() {
   return <canvas className="starfield" ref={canvasRef} />;
 }
 
-
 function App() {
+  useEffect(() => {
+    const updateParallax = () => {
+      const content = document.querySelector<HTMLDivElement>(".content");
+      if (!content) return;
+      
+      const background = document.querySelector<HTMLDivElement>(".starfield");
+      if (!background) return;      
+      
+      const rect = content.getBoundingClientRect();
+      const offset = -rect.top * scrollRatio;
+      console.log(-rect.top);
+
+      background.style.transform = `translate3d(0, ${offset}px, 0)`;
+    };
+
+    window.addEventListener("scroll", updateParallax);
+
+    return () => {
+      window.removeEventListener("scroll", updateParallax);
+    };
+  });
+
   return (
     <>
       <Starfield />
       <div className='content'>
         <h1>Salut ! Je m'appelle Angelo.</h1>
         <h2>Bienvenue sur mon portfolio !</h2>
-        <p>
+        <div className='text_section'>
           <h3>Courte présentation :</h3>
           <br />
-          Étudiant en deuxième année de BUT Informatique, passionné par les nouvelles technologies, je possède de solides bases en développement, bases de données et gestion de projets. Curieux, rigoureux et motivé, je souhaite mettre mes compétences techniques et mon sens de l’analyse au service d’une équipe dynamique afin de contribuer à la réalisation de projets innovants lors d’un stage de 8 à 12 semaines à partir du 13 avril 2026.</p>
+          <p>
+            Étudiant en deuxième année de BUT Informatique, passionné par les nouvelles technologies, je possède de solides bases en développement, bases de données et gestion de projets. Curieux, rigoureux et motivé,
+            je souhaite mettre mes compétences techniques et mon sens de l’analyse au service d’une équipe dynamique afin de contribuer à la réalisation de projets innovants lors d’un stage de 8 à 12 semaines à partir du 13 avril 2026.
+          </p>
+        </div>
       </div>
     </>
   );

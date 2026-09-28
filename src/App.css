@@ -1,21 +1,9 @@
-:root {
-  --grey: rgb(6, 6, 7);
-  --stars: rgba(255, 255, 255, 1);
-}
-
 * {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
   color: var(--white);
   background-color: rgba(0, 0, 0, 0);
-}
-
-body {
-  background-color: var(--grey);
-  width: 100%;
-  min-height: 100vh;
-  height: 200vh;
 }
 
 /* --- Star Background ------------------------------------------------ */
@@ -36,7 +24,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 0;
+  will-change: transform;
 }
 
 .content {
@@ -66,6 +55,9 @@ h3 {
 p {
   color: white;
   font-size: 18px;
+}
+
+.text_section {
   background: rgba(58, 58, 58, 0.3);
   padding: 20px;
   border-radius: 10px;
