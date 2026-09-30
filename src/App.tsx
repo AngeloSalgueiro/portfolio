@@ -40,9 +40,9 @@ function Starfield() {
 
     const windowHeight = Math.round(window.innerHeight);
 
-    if (bodyHeight * scrollRatio <= windowHeight){
+    if (bodyHeight * scrollRatio <= windowHeight) {
       canvas.height = bodyHeight;
-    } else{
+    } else {
       canvas.height = bodyHeight * scrollRatio;
     }
 
@@ -101,15 +101,37 @@ function Starfield() {
   return <canvas className="starfield" ref={canvasRef} />;
 }
 
+function Intro() {
+
+  async function ScrollToPres() {
+    const pres = document.querySelector<HTMLDivElement>("#presentation");
+
+    if (pres) {
+      pres.scrollIntoView()
+    }
+  };
+
+  return (
+    <div id='intro'>
+      <img className='profile_picture' src='src/assets/photo.png' alt="" />
+      <div>
+        <h1>Salut ! Je m'appelle <strong>Angelo</strong>.</h1>
+        <h2>Bienvenue sur mon <strong>portfolio</strong> !</h2>
+        <button className='button' onClick={ScrollToPres}>En savoir plus sur moi</button>
+      </div>
+    </div>
+  );
+}
+
 function App() {
   useEffect(() => {
     const updateParallax = () => {
       const content = document.querySelector<HTMLDivElement>(".content");
       if (!content) return;
-      
+
       const background = document.querySelector<HTMLDivElement>(".starfield");
-      if (!background) return;      
-      
+      if (!background) return;
+
       const rect = content.getBoundingClientRect();
       const offset = -rect.top * scrollRatio;
       console.log(-rect.top);
@@ -128,15 +150,16 @@ function App() {
     <>
       <Starfield />
       <div className='content'>
-        <h1>Salut ! Je m'appelle Angelo.</h1>
-        <h2>Bienvenue sur mon portfolio !</h2>
-        <div className='text_section'>
-          <h3>Courte présentation :</h3>
-          <br />
-          <p>
-            Étudiant en deuxième année de BUT Informatique, passionné par les nouvelles technologies, je possède de solides bases en développement, bases de données et gestion de projets. Curieux, rigoureux et motivé,
-            je souhaite mettre mes compétences techniques et mon sens de l’analyse au service d’une équipe dynamique afin de contribuer à la réalisation de projets innovants lors d’un stage de 8 à 12 semaines à partir du 13 avril 2026.
-          </p>
+        <Intro />
+        <div id='presentation'>
+          <div className='text_section'>
+            <h3>Courte présentation :</h3>
+            <br />
+            <p>
+              Étudiant en deuxième année de BUT Informatique, passionné par les nouvelles technologies, je possède de solides bases en développement, bases de données et gestion de projets. Curieux, rigoureux et motivé,
+              je souhaite mettre mes compétences techniques et mon sens de l’analyse au service d’une équipe dynamique afin de contribuer à la réalisation de projets innovants lors d’un stage de 8 à 12 semaines à partir du 13 avril 2026.
+            </p>
+          </div>
         </div>
       </div>
     </>

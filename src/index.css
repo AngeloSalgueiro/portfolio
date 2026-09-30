@@ -1,6 +1,5 @@
 :root {
   --grey: rgb(6, 6, 7);
-  --stars: rgba(255, 255, 255, 1);
 }
 
 body{
@@ -15,5 +14,5 @@ body{
     overflow: hidden;
     display: grid;
     place-items: center;
-    z-index: -1;
+    z-index: 0;
 }

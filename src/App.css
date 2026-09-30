@@ -1,3 +1,9 @@
+:root {
+  --component: rgba(58, 58, 58, 0.3);
+  --button: rgb(107, 107, 107);
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -9,14 +15,14 @@
 /* --- Star Background ------------------------------------------------ */
 
 @keyframes pulse {
-
   0%,
-  100% {
-    opacity: 1;
-  }
 
   50% {
     opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
@@ -24,15 +30,19 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: 1;
   will-change: transform;
+  pointer-events: none;
 }
+
+/* --- Content ------------------------------------------------*/
 
 .content {
   position: relative;
-  z-index: 1;
-  padding: 50px;
+  z-index: 2;
   text-align: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -57,11 +67,55 @@ p {
   font-size: 18px;
 }
 
+.button{
+  position: relative;
+
+  border-color: var(--button);
+  border-radius: 15px;
+  border-width: 5px;
+  padding: 10px;
+  color: white !important;
+  border-style: solid;
+  font-size: 1.5em;
+  letter-spacing: -0.025em;
+  cursor: pointer;
+  
+
+  &:hover{
+    background-color: var(--button);
+    color: black;
+    transition: background-color,  .2s ease-in-out, border-color .2s ease-in-out;
+  }
+}
+
+
 .text_section {
-  background: rgba(58, 58, 58, 0.3);
+  background: var(--component);
   padding: 20px;
   border-radius: 10px;
   max-width: 600px;
   margin: 0 auto;
   text-align: left;
 }
+
+#intro{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.profile_picture{
+  width: 300px;
+  border-radius: 100%;
+}
+
+#presentation{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
