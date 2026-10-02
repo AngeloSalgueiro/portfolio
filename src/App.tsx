@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
 
-// Ratio between the background and the foreground
+// Height ratio between the background and the foreground
 const scrollRatio = 0.8;
 
 function useBodyDimension() {
@@ -123,6 +123,20 @@ function Intro() {
   );
 }
 
+function Presentation() {
+  return (<div id='presentation'>
+    <h1>Qui suis-je ?</h1>
+    <div className='text_section'>
+      <h3>Courte présentation :</h3>
+      <br />
+      <p>
+        Étudiant en deuxième année de BUT Informatique, passionné par les nouvelles technologies, je possède de solides bases en développement, bases de données et gestion de projets. Curieux, rigoureux et motivé,
+        je souhaite mettre mes compétences techniques et mon sens de l’analyse au service d’une équipe dynamique afin de contribuer à la réalisation de projets innovants lors d’un stage de 8 à 12 semaines à partir du 13 avril 2026.
+      </p>
+    </div>
+  </div>);
+}
+
 function App() {
   useEffect(() => {
     const updateParallax = () => {
@@ -151,16 +165,7 @@ function App() {
       <Starfield />
       <div className='content'>
         <Intro />
-        <div id='presentation'>
-          <div className='text_section'>
-            <h3>Courte présentation :</h3>
-            <br />
-            <p>
-              Étudiant en deuxième année de BUT Informatique, passionné par les nouvelles technologies, je possède de solides bases en développement, bases de données et gestion de projets. Curieux, rigoureux et motivé,
-              je souhaite mettre mes compétences techniques et mon sens de l’analyse au service d’une équipe dynamique afin de contribuer à la réalisation de projets innovants lors d’un stage de 8 à 12 semaines à partir du 13 avril 2026.
-            </p>
-          </div>
-        </div>
+        <Presentation />
       </div>
     </>
   );
