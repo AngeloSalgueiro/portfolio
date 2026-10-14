@@ -108,7 +108,7 @@ function Intro() {
       <div>
         <h1>Salut ! Je m'appelle <strong>Angelo</strong>.</h1>
         <h2>Bienvenue sur mon <strong>portfolio</strong> !</h2>
-        <a className="button" href="#skills">Découvrir mon univers</a>
+        <a className="button" href="#presentation">Découvrir mon univers</a>
       </div>
     </header>
   );
