@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type FormEvent } from 'react'
+import emailjs from "@emailjs/browser";
 import './App.css'
 
 // Ratio between the background and the foreground
@@ -246,6 +247,131 @@ function SkillsCarousel() {
   );
 }
 
+function ContactForm() {
+  const [sendStatus, setSendStatus] = useState<"sending" | "success" | "error" | null>(null);
+
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    setSendStatus("sending");
+
+    emailjs
+      .sendForm(
+        "service_portfolio",
+        "template_ihgjhcc",
+        form,
+        { publicKey: "nL3U2yAwWoEuzQp2l" }
+      )
+      .then(() => {
+        form.reset();
+        setSendStatus("success");
+      })
+      .catch(() => setSendStatus("error"));
+  };
+
+  return (
+    <section id="contact" className="section contact_section">
+      <div className="section_heading">
+        <span className="eyebrow">Entrée en communication</span>
+        <h2>Faisons connaissance</h2>
+        <p>Une idée, une question ou simplement envie d’échanger ? Écrivez-moi.</p>
+      </div>
+      <div className="contact_layout">
+        <aside className="contact_intro">
+          <span className="contact_status">
+            <span aria-hidden="true" />
+            Ouvert aux nouvelles idées
+          </span>
+          <h3>Votre prochain projet commence par une conversation.</h3>
+          <p>
+            Décrivez-moi ce que vous avez en tête. Je vous répondrai dès que
+            possible pour en discuter.
+          </p>
+          <div className="contact_signature" aria-hidden="true">
+            <span>AS</span>
+            <span>Angelo Salgueiro</span>
+          </div>
+        </aside>
+        <form className="contact_form" onSubmit={sendEmail} aria-busy={sendStatus === "sending"}>
+          <div className="form_fields">
+            <div className="form_field">
+              <label htmlFor="contact-name">Votre nom</label>
+              <input
+                id="contact-name"
+                name="from_name"
+                type="text"
+                placeholder="Ex. Camille Martin"
+                autoComplete="name"
+                required
+              />
+            </div>
+            <div className="form_field">
+              <label htmlFor="contact-email">Votre adresse e-mail</label>
+              <input
+                id="contact-email"
+                name="reply_to"
+                type="email"
+                placeholder="vous@exemple.fr"
+                autoComplete="email"
+                required
+              />
+            </div>
+            <div className="form_field form_field_wide">
+              <label htmlFor="contact-subject">Sujet</label>
+              <input
+                id="contact-subject"
+                name="subject"
+                type="text"
+                placeholder="De quoi souhaitez-vous parler ?"
+                required
+              />
+            </div>
+            <div className="form_field form_field_wide">
+              <label htmlFor="contact-message">Votre message</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                placeholder="Quelques mots sur votre idée..."
+                rows={5}
+                required
+              />
+            </div>
+          </div>
+          <div className="form_footer">
+            <p>Je vous répondrai dans les meilleurs délais.</p>
+            <button className="contact_submit" type="submit" disabled={sendStatus === "sending"}>
+              {sendStatus === "sending" ? "Envoi en cours..." : "Envoyer le message"}
+              {sendStatus !== "sending" && <span aria-hidden="true">↗</span>}
+            </button>
+          </div>
+          {sendStatus && sendStatus !== "sending" && (
+            <div
+              className={`form_feedback form_feedback_${sendStatus}`}
+              role={sendStatus === "error" ? "alert" : "status"}
+              aria-live={sendStatus === "error" ? "assertive" : "polite"}
+            >
+              <span className="feedback_icon" aria-hidden="true">
+                {sendStatus === "success" ? "✓" : "!"}
+              </span>
+              <div>
+                <strong>
+                  {sendStatus === "success" ? "Message envoyé !" : "L’envoi a échoué"}
+                </strong>
+                <p>
+                  {sendStatus === "success"
+                    ? "Merci pour votre message. Je vous répondrai dès que possible."
+                    : "Une erreur est survenue. Veuillez réessayer dans quelques instants."}
+                </p>
+              </div>
+            </div>
+          )}
+        </form>
+      </div>
+    </section>
+  );
+}
+
+
 function App() {
   useEffect(() => {
     const updateParallax = () => {
@@ -279,6 +405,7 @@ function App() {
             <a href="#presentation">À propos</a>
             <a href="#skills">Compétences</a>
             <a href="#projects">Projets</a>
+            <a href="#contact">Contact</a>
           </div>
         </nav>
         <Intro />
@@ -332,6 +459,7 @@ function App() {
             ))}
             </div>
           </section>
+          <ContactForm />
         </main>
         <footer>© 2026 Angelo Salgueiro · Exploration en cours</footer>
       </div>
