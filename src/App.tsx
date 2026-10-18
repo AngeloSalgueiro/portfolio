@@ -1,6 +1,24 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
 import emailjs from "@emailjs/browser";
+import angularIcon from "./assets/angular.svg";
 import calculatorImage from "./assets/calculator.png";
+import cssIcon from "./assets/css.svg";
+import dockerIcon from "./assets/docker.svg";
+import goIcon from "./assets/golang.svg";
+import htmlIcon from "./assets/html5.svg";
+import javaIcon from "./assets/java.svg";
+import javascriptIcon from "./assets/javascript.svg";
+import kotlinIcon from "./assets/kotlin.svg";
+import legoImage from "./assets/lego.png";
+import photoImage from "./assets/photo.png";
+import phpIcon from "./assets/php.svg";
+import pikaImage from "./assets/pika.png";
+import pongImage from "./assets/pong.png";
+import pythonIcon from "./assets/python.svg";
+import quadtreeImage from "./assets/quadtree1.png";
+import quiestceImage from "./assets/quiestce.png";
+import reactIcon from "./assets/react.svg";
+import typescriptIcon from "./assets/typescript.svg";
 import './App.css'
 
 // Ratio between the background and the foreground
@@ -106,7 +124,7 @@ function Starfield() {
 function Intro() {
   return (
     <header id="intro">
-      <img className="profile_picture" src="src/assets/photo.png" alt="Portrait d'Angelo" />
+      <img className="profile_picture" src={photoImage} alt="Portrait d'Angelo" />
       <div>
         <h1>Salut ! Je m'appelle <strong>Angelo</strong>.</h1>
         <h2>Bienvenue sur mon <strong>portfolio</strong> !</h2>
@@ -117,18 +135,18 @@ function Intro() {
 }
 
 const skills = [
-  { name: "HTML5", category: "Langage & web", icon: "/src/assets/html5.svg" },
-  { name: "CSS", category: "Langage & web", icon: "/src/assets/css.svg" },
-  { name: "JavaScript", category: "Langage", icon: "/src/assets/javascript.svg" },
-  { name: "TypeScript", category: "Langage", icon: "/src/assets/typescript.svg" },
-  { name: "Python", category: "Langage", icon: "/src/assets/python.svg" },
-  { name: "Java", category: "Langage", icon: "/src/assets/java.svg" },
-  { name: "Kotlin", category: "Langage", icon: "/src/assets/kotlin.svg" },
-  { name: "PHP", category: "Langage", icon: "/src/assets/php.svg" },
-  { name: "React", category: "Framework", icon: "/src/assets/react.svg" },
-  { name: "Angular", category: "Framework", icon: "/src/assets/angular.svg" },
-  { name: "Go", category: "Langage", icon: "/src/assets/golang.svg" },
-  { name: "Docker", category: "Outil", icon: "/src/assets/docker.svg" },
+  { name: "HTML5", category: "Langage & web", icon: htmlIcon },
+  { name: "CSS", category: "Langage & web", icon: cssIcon },
+  { name: "JavaScript", category: "Langage", icon: javascriptIcon },
+  { name: "TypeScript", category: "Langage", icon: typescriptIcon },
+  { name: "Python", category: "Langage", icon: pythonIcon },
+  { name: "Java", category: "Langage", icon: javaIcon },
+  { name: "Kotlin", category: "Langage", icon: kotlinIcon },
+  { name: "PHP", category: "Langage", icon: phpIcon },
+  { name: "React", category: "Framework", icon: reactIcon },
+  { name: "Angular", category: "Framework", icon: angularIcon },
+  { name: "Go", category: "Langage", icon: goIcon },
+  { name: "Docker", category: "Outil", icon: dockerIcon },
 ];
 
 const projects = [
@@ -142,38 +160,38 @@ const projects = [
   {
     title: "Site web e-commerce",
     description: "Un site web de vente de Lego réalisé dans le cadre d'un projet de groupe.",
-    image: "/src/assets/lego.png",
+    image: legoImage,
     href: "https://github.com/AngeloSalgueiro/lego-ecommerce-website.git",
     tags: ["E-commerce", "Projet de groupe"],
   },
   {
     title: "Application côté client",
     description: "Un projet de groupe : réaliser une application côté client pour le jeu Qui-est-ce ?.",
-    image: "/src/assets/quiestce.png",
+    image: quiestceImage,
     href: "https://github.com/AngeloSalgueiro/Client-sided-whoswho.git",
     tags: ["TypeScript", "Projet de groupe"],
   },
   {
     title: "Projet quadtree",
     description: "Amélioration en équipe d'un petit jeu en Go, avec l'implémentation de nouvelles fonctionnalités.",
-    image: "/src/assets/quadtree1.png",
+    image: quadtreeImage,
     href: "https://github.com/AngeloSalgueiro/smallgameinGo.git",
     tags: ["Go", "Quadtree"],
   },
   {
     title: "Marketplace de cartes Pokémon",
     description: "Petit projet d'équipe autour d'une marketplace de cartes Pokémon.",
-    image: "/src/assets/pika.png",
+    image: pikaImage,
     href: "https://github.com/AngeloSalgueiro/pokemonTCGmarketplace.git",
     tags: ["Marketplace", "Projet de groupe"],
   },
   {
     title: "Expériences en Python",
     description: "Quelques jeux et expériences réalisés avec Pygame.",
-    image: "/src/assets/pong.png",
+    image: pongImage,
     href: "https://github.com/AngeloSalgueiro/python_experiences.git",
     tags: ["Python", "Pygame"],
-  }, 
+  },
 ];
 
 function SkillsCarousel() {
@@ -431,51 +449,51 @@ function App() {
           <Intro />
           <section id="presentation" className="section presentation_section">
             <div className="section_heading">
-            <span className="eyebrow">Transmission depuis la Terre</span>
-            <h2>À propos de moi</h2>
+              <span className="eyebrow">Transmission depuis la Terre</span>
+              <h2>À propos de moi</h2>
             </div>
             <div className="text_section">
-            <h3>Courte présentation</h3>
-            <br />
-            <p>
-              Étudiant en informatique, je transforme les idées en expériences
-              numériques. J'aime comprendre comment les choses fonctionnent,
-              apprendre de nouvelles technologies et construire des projets utiles,
-              avec une attention particulière portée à la qualité et aux détails.
-            </p>
+              <h3>Courte présentation</h3>
+              <br />
+              <p>
+                Étudiant en informatique, je transforme les idées en expériences
+                numériques. J'aime comprendre comment les choses fonctionnent,
+                apprendre de nouvelles technologies et construire des projets utiles,
+                avec une attention particulière portée à la qualité et aux détails.
+              </p>
             </div>
           </section>
 
           <section id="skills" className="section">
             <div className="section_heading">
-            <span className="eyebrow">Ma constellation technique</span>
-            <h2>Langages &amp; frameworks</h2>
-            <p>Les technologies que j'utilise pour donner vie à mes idées.</p>
+              <span className="eyebrow">Ma constellation technique</span>
+              <h2>Langages &amp; frameworks</h2>
+              <p>Les technologies que j'utilise pour donner vie à mes idées.</p>
             </div>
             <SkillsCarousel />
           </section>
 
           <section id="projects" className="section">
             <div className="section_heading">
-            <span className="eyebrow">Missions accomplies</span>
-            <h2>Mes projets</h2>
-            <p>Quelques réalisations qui retracent mon parcours et ma curiosité.</p>
+              <span className="eyebrow">Missions accomplies</span>
+              <h2>Mes projets</h2>
+              <p>Quelques réalisations qui retracent mon parcours et ma curiosité.</p>
             </div>
             <div className="projects_grid">
-            {projects.map((project) => (
-              <article className="project_card" key={project.title}>
-                <a className="project_image" href={project.href} target="_blank" rel="noreferrer" aria-label={`Voir ${project.title} sur GitHub`}>
-                  <img src={project.image} alt="" />
-                </a>
-                <div className="project_content">
-                  <h3><a href={project.href} target="_blank" rel="noreferrer">{project.title}</a></h3>
-                  <p>{project.description}</p>
-                  <div className="tag_list">
-                    {project.tags.map((tag) => <span key={tag}>{tag}</span>)}
+              {projects.map((project) => (
+                <article className="project_card" key={project.title}>
+                  <a className="project_image" href={project.href} target="_blank" rel="noreferrer" aria-label={`Voir ${project.title} sur GitHub`}>
+                    <img src={project.image} alt="" />
+                  </a>
+                  <div className="project_content">
+                    <h3><a href={project.href} target="_blank" rel="noreferrer">{project.title}</a></h3>
+                    <p>{project.description}</p>
+                    <div className="tag_list">
+                      {project.tags.map((tag) => <span key={tag}>{tag}</span>)}
+                    </div>
                   </div>
-                </div>
-              </article>
-            ))}
+                </article>
+              ))}
             </div>
           </section>
           <ContactForm />
