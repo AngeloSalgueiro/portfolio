@@ -351,6 +351,7 @@ p {
 }
 
 .project_image {
+  display: block;
   height: 190px;
   overflow: hidden;
   background: #11101d;
