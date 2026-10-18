@@ -24,6 +24,13 @@ import './App.css'
 // Ratio between the background and the foreground
 const scrollRatio = 0.8;
 
+function scrollToSection(id: string) {
+  return (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+}
+
 function useBodyDimension() {
   const [bodyWidth, setBodyWidth] = useState(0);
   const [bodyHeight, setBodyHeight] = useState(0);
@@ -128,7 +135,7 @@ function Intro() {
       <div>
         <h1>Salut ! Je m'appelle <strong>Angelo</strong>.</h1>
         <h2>Bienvenue sur mon <strong>portfolio</strong> !</h2>
-        <a className="button" href="#presentation">Découvrir mon univers</a>
+        <a className="button" href="#presentation" onClick={scrollToSection("presentation")}>Découvrir mon univers</a>
       </div>
     </header>
   );
@@ -411,6 +418,24 @@ function ContactForm() {
 
 function App() {
   useEffect(() => {
+    const previousScrollRestoration = window.history.scrollRestoration;
+    window.history.scrollRestoration = "manual";
+
+    if (window.location.hash) {
+      window.history.replaceState(
+        window.history.state,
+        "",
+        `${window.location.pathname}${window.location.search}`,
+      );
+    }
+    window.scrollTo(0, 0);
+
+    return () => {
+      window.history.scrollRestoration = previousScrollRestoration;
+    };
+  }, []);
+
+  useEffect(() => {
     const updateParallax = () => {
       const content = document.querySelector<HTMLDivElement>(".content");
       if (!content) return;
@@ -437,12 +462,12 @@ function App() {
       <Starfield />
       <div className="content">
         <nav className="site_nav" aria-label="Navigation principale">
-          <a href="#intro" className="nav_logo">AS<span>.</span></a>
+          <a href="#intro" className="nav_logo" onClick={scrollToSection("intro")}>AS<span>.</span></a>
           <div className="nav_links">
-            <a href="#presentation">À propos</a>
-            <a href="#skills">Compétences</a>
-            <a href="#projects">Projets</a>
-            <a href="#contact">Contact</a>
+            <a href="#presentation" onClick={scrollToSection("presentation")}>À propos</a>
+            <a href="#skills" onClick={scrollToSection("skills")}>Compétences</a>
+            <a href="#projects" onClick={scrollToSection("projects")}>Projets</a>
+            <a href="#contact" onClick={scrollToSection("contact")}>Contact</a>
           </div>
         </nav>
         <main>
