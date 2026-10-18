@@ -427,8 +427,8 @@ function App() {
             <a href="#contact">Contact</a>
           </div>
         </nav>
-        <Intro />
         <main>
+          <Intro />
           <section id="presentation" className="section presentation_section">
             <div className="section_heading">
             <span className="eyebrow">Transmission depuis la Terre</span>
