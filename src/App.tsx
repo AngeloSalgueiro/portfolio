@@ -24,11 +24,26 @@ import './App.css'
 // Ratio between the background and the foreground
 const scrollRatio = 0.8;
 
-function scrollToSection(id: string) {
-  return (event: React.MouseEvent<HTMLAnchorElement>) => {
-    event.preventDefault();
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
+function scrollToSection(event: React.MouseEvent<HTMLAnchorElement>) {
+  const hash = event.currentTarget.getAttribute("href");
+  if (!hash?.startsWith("#") || hash.length === 1) return;
+
+  const section = document.getElementById(decodeURIComponent(hash.slice(1)));
+  if (!section) return;
+
+  event.preventDefault();
+
+  const sectionTop = window.scrollY + section.getBoundingClientRect().top;
+  const scrollMargin = Number.parseFloat(getComputedStyle(section).scrollMarginTop) || 0;
+  const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+  const targetScroll = Math.min(maxScroll, Math.max(0, sectionTop - scrollMargin));
+
+  if (Math.abs(window.scrollY - targetScroll) < 2) return;
+
+  window.scrollTo({
+    top: targetScroll,
+    behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+  });
 }
 
 function useBodyDimension() {
@@ -135,7 +150,7 @@ function Intro() {
       <div>
         <h1>Salut ! Je m'appelle <strong>Angelo</strong>.</h1>
         <h2>Bienvenue sur mon <strong>portfolio</strong> !</h2>
-        <a className="button" href="#presentation" onClick={scrollToSection("presentation")}>Découvrir mon univers</a>
+        <a className="button" href="#presentation" onClick={scrollToSection}>Découvrir mon univers</a>
       </div>
     </header>
   );
@@ -462,12 +477,12 @@ function App() {
       <Starfield />
       <div className="content">
         <nav className="site_nav" aria-label="Navigation principale">
-          <a href="#intro" className="nav_logo" onClick={scrollToSection("intro")}>AS<span>.</span></a>
+          <a href="#intro" className="nav_logo" onClick={scrollToSection}>AS<span>.</span></a>
           <div className="nav_links">
-            <a href="#presentation" onClick={scrollToSection("presentation")}>À propos</a>
-            <a href="#skills" onClick={scrollToSection("skills")}>Compétences</a>
-            <a href="#projects" onClick={scrollToSection("projects")}>Projets</a>
-            <a href="#contact" onClick={scrollToSection("contact")}>Contact</a>
+            <a href="#presentation" onClick={scrollToSection}>À propos</a>
+            <a href="#skills" onClick={scrollToSection}>Compétences</a>
+            <a href="#projects" onClick={scrollToSection}>Projets</a>
+            <a href="#contact" onClick={scrollToSection}>Contact</a>
           </div>
         </nav>
         <main>
