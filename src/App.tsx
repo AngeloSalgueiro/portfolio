@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
 import emailjs from "@emailjs/browser";
+import calculatorImage from "./assets/calculator.png";
 import './App.css'
 
 // Ratio between the background and the foreground
@@ -132,29 +133,47 @@ const skills = [
 
 const projects = [
   {
-    title: "Jeu de Pong",
-    description: "Une version rétro du célèbre jeu d'arcade, pensée pour travailler la logique et les interactions.",
-    image: "/images/pong.png",
-    tags: ["JavaScript", "Canvas"],
+    title: "Calculatrice",
+    description: "Une calculatrice réalisée avec Slint.",
+    image: calculatorImage,
+    href: "https://github.com/AngeloSalgueiro/calculator_slint.git",
+    tags: ["Slint", "Calculatrice"],
   },
   {
-    title: "Pokédex",
-    description: "Une interface de consultation autour de l'univers Pokémon et de ses créatures.",
-    image: "/images/pika.png",
-    tags: ["React", "API"],
+    title: "Site web e-commerce",
+    description: "Un site web de vente de Lego réalisé dans le cadre d'un projet de groupe.",
+    image: "/images/lego.png",
+    href: "https://github.com/AngeloSalgueiro/lego-ecommerce-website.git",
+    tags: ["E-commerce", "Projet de groupe"],
   },
   {
-    title: "Quadtree",
-    description: "Exploration visuelle d'une structure de données pour optimiser la recherche spatiale.",
-    image: "/images/quadtree1.png",
-    tags: ["Python", "Algorithmique"],
-  },
-  {
-    title: "Qui est-ce ?",
-    description: "Un jeu de déduction qui met l'accent sur l'expérience utilisateur et la gestion d'état.",
+    title: "Application côté client",
+    description: "Un projet de groupe : réaliser une application côté client pour le jeu Qui-est-ce ?.",
     image: "/images/quiestce.png",
-    tags: ["TypeScript", "UI"],
+    href: "https://github.com/AngeloSalgueiro/Client-sided-whoswho.git",
+    tags: ["TypeScript", "Projet de groupe"],
   },
+  {
+    title: "Projet quadtree",
+    description: "Amélioration en équipe d'un petit jeu en Go, avec l'implémentation de nouvelles fonctionnalités.",
+    image: "/images/quadtree1.png",
+    href: "https://github.com/AngeloSalgueiro/smallgameinGo.git",
+    tags: ["Go", "Quadtree"],
+  },
+  {
+    title: "Marketplace de cartes Pokémon",
+    description: "Petit projet d'équipe autour d'une marketplace de cartes Pokémon.",
+    image: "/images/pika.png",
+    href: "https://github.com/AngeloSalgueiro/pokemonTCGmarketplace.git",
+    tags: ["Marketplace", "Projet de groupe"],
+  },
+  {
+    title: "Expériences en Python",
+    description: "Quelques jeux et expériences réalisés avec Pygame.",
+    image: "/images/pong.png",
+    href: "https://github.com/AngeloSalgueiro/python_experiences.git",
+    tags: ["Python", "Pygame"],
+  }, 
 ];
 
 function SkillsCarousel() {
@@ -445,11 +464,11 @@ function App() {
             <div className="projects_grid">
             {projects.map((project) => (
               <article className="project_card" key={project.title}>
-                <div className="project_image">
+                <a className="project_image" href={project.href} target="_blank" rel="noreferrer" aria-label={`Voir ${project.title} sur GitHub`}>
                   <img src={project.image} alt="" />
-                </div>
+                </a>
                 <div className="project_content">
-                  <h3>{project.title}</h3>
+                  <h3><a href={project.href} target="_blank" rel="noreferrer">{project.title}</a></h3>
                   <p>{project.description}</p>
                   <div className="tag_list">
                     {project.tags.map((tag) => <span key={tag}>{tag}</span>)}
@@ -461,7 +480,7 @@ function App() {
           </section>
           <ContactForm />
         </main>
-        <footer>© 2026 Angelo Salgueiro · Exploration en cours</footer>
+        <footer>© 2026 Angelo Salgueiro · <a href="https://github.com/AngeloSalgueiro">Github</a> · Exploration en cours </footer>
       </div>
     </>
   );
